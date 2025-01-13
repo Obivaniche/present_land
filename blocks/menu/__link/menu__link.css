@@ -1,0 +1,10 @@
+.menu__link {
+    font-family: 'ClashDisplay';
+    font-weight: 500;
+    line-height: 13px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}

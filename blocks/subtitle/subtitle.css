@@ -1,0 +1,10 @@
+.subtitle {
+    margin: 16px auto 0 48px;
+    font-family: 'ClashDisplay';
+    font-weight: 500;
+    line-height: 57.6px;
+    font-size: 48px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,9 @@
+.ticker {
+    position: relative;
+    overflow: hidden;
+    margin: 32px 48px 0 48px;
+    background-color: rgba(210, 246, 90, 1);
+    height: 48px;
+    display: flex;
+    align-items: center;
+}

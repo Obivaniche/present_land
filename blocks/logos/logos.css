@@ -1,0 +1,7 @@
+.logos {
+    margin: 128px 160px 0 160px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

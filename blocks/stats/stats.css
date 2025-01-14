@@ -1,0 +1,7 @@
+.stats {
+    margin: 0 auto 0 auto;
+    padding: 0 160px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

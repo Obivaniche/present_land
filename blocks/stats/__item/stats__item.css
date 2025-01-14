@@ -1,0 +1,8 @@
+.stats__item {
+    margin: 96px 0 0 0;
+    padding: 0;
+    border-top: 2px solid rgba(0, 0, 0, 1);
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+}

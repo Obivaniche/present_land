@@ -19,6 +19,17 @@
 @import url(../blocks/ticker/__wrapper/ticker__wrapper.css);
 @import url(../blocks/ticker/__item/ticker__item.css);
 
+@import url(../blocks/stats/stats.css);
+@import url(../blocks/stats/__container/stats__container.css);
+@import url(../blocks/stats/__item/stats__item.css);
+@import url(../blocks/stats/__title/stats__title.css);
+@import url(../blocks/stats/__info/stats__info.css);
+@import url(../blocks/stats/__span/stats__span.css);
+
+@import url(../blocks/logos/logos.css);
+@import url(../blocks/logos/__title/logos__title.css);
+@import url(../blocks/logos/__container/logos__container.css);
+
 @import url(../blocks/button/button.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/subtitle/subtitle.css);

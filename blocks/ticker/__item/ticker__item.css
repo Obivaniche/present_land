@@ -14,8 +14,8 @@
 }
 
 @keyframes ticker {
-    0% {
-        transform: translateZ(0);
+    from {
+        transform: translate3d(0, 0, 0);
     }
 
     to {

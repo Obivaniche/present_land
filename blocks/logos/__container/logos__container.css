@@ -1,0 +1,7 @@
+.logos__container {
+    margin: 0 0 0 64px;
+    padding: 0;
+    width: 1181px;
+    display: flex;
+    justify-content: space-between;
+}

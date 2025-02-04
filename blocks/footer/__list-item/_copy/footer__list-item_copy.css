@@ -1,0 +1,13 @@
+.footer__list-item_copy {
+    margin: 0 32px 0 0;
+    height: 13px;
+    width: 100%;
+}
+
+.footer__list-item_copy:first-of-type {
+    height: 13px;
+}
+
+.footer__list-item_copy:last-of-type {
+    margin: 0;
+}

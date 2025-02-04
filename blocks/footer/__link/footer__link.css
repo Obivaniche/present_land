@@ -1,12 +1,14 @@
-.title {
+.footer__link {
     margin: 0;
     padding: 0;
-    text-align: center;
+    color: #FFF;
     font-family: 'ClashDisplay';
-    font-weight: 500;
     line-height: 13px;
     font-size: 13px;
+    font-weight: 500;
     letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    height: 13px;
 }

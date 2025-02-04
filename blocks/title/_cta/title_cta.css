@@ -1,0 +1,10 @@
+.title_cta {
+    margin: 32px auto 0 auto;
+    color: #FFF;
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 600;
+    letter-spacing: 4.8px;
+    text-wrap: wrap;
+    text-transform: uppercase;
+}

@@ -18,6 +18,8 @@
 @import url(../blocks/ticker/ticker.css);
 @import url(../blocks/ticker/__wrapper/ticker__wrapper.css);
 @import url(../blocks/ticker/__item/ticker__item.css);
+@import url(../blocks/ticker/_gallery/ticker_gallery.css);
+@import url(../blocks/ticker/__item/_gallery/ticker__item_gallery.css);
 
 @import url(../blocks/stats/stats.css);
 @import url(../blocks/stats/__container/stats__container.css);
@@ -34,3 +36,27 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/_hero/subtitle_hero.css);
+
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__heading/services__heading.css);
+@import url(../blocks/services/__star/services__star.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__owner/services__owner.css);
+@import url(../blocks/services/__owner-portrait/services__owner-portrait.css);
+@import url(../blocks/services/__owner-text/services__owner-text.css);
+@import url(../blocks/services/__owner-greeting/services__owner-greeting.css);
+@import url(../blocks/services/__owner-post/services__owner-post.css);
+@import url(../blocks/services/__articles/services__articles.css);
+@import url(../blocks/services/__article/services__article.css);
+@import url(../blocks/services/__article-title/services__article-title.css);
+@import url(../blocks/services/__article-dot/services__article-dot.css);
+@import url(../blocks/services/__article-text/services__article-text.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__grid/gallery__grid.css);
+@import url(../blocks/gallery/__card/gallery__card.css);
+@import url(../blocks/gallery/__card-img/gallery__card-img.css);
+@import url(../blocks/gallery/__card-title/gallery__card-title.css);
+@import url(../blocks/gallery/__card-subtitle/gallery__card-subtitle.css);
+@import url(../blocks/gallery/__hover-link/gallery__hover-link.css);
+@import url(../blocks/gallery/__link/gallery__link.css);

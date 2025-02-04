@@ -1,0 +1,8 @@
+.gallery__grid {
+    margin: 48px 48px 0 48px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}

@@ -1,8 +1,8 @@
-.logos__container {
+.services__heading {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 48px 169.83px;
+    max-width: 752px;
 }

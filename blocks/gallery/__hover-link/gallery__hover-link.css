@@ -1,0 +1,17 @@
+.gallery__hover-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../images/link.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    box-sizing: border-box;
+    outline: 10px solid #D2F65A;
+    outline-offset: -10px;
+    opacity: 0;
+}
+
+.gallery__hover-link:hover {
+    opacity: 1;
+}

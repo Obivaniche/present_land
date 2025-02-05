@@ -3,7 +3,6 @@
     padding: 0 160px 160px 160px;
     max-width: 1600px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 96px;
 }

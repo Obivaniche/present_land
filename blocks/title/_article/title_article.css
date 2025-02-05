@@ -1,7 +1,8 @@
 .title_article {  
-    line-height: 38.4px;
-    font-size: 32px;
+    line-height: calc(24px + 14.4 * (100vw / 1920));
+    font-size: calc(24px + 8 * (100vw / 1920));
     letter-spacing: 1px;
     text-align: left;
     text-transform: uppercase;
+    text-wrap: nowrap;
 }

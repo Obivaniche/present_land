@@ -1,4 +1,5 @@
 .footer__link {
+    display: flex;
     margin: 0;
     padding: 0;
     color: #FFF;
@@ -11,4 +12,5 @@
     text-transform: uppercase;
     text-decoration: none;
     height: 13px;
+    text-wrap: nowrap;
 }

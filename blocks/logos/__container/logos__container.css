@@ -4,5 +4,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 48px 169.83px;
+    flex: 1;
+    gap: 48px;
 }

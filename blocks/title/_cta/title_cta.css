@@ -1,8 +1,8 @@
 .title_cta {
     margin: 32px auto 0 auto;
     color: #FFF;
-    font-size: 96px;
-    line-height: 96px;
+    font-size: calc(24px + 72 * (100vw / 1920));
+    line-height: calc(24px + 72 * (100vw / 1920));
     font-weight: 600;
     letter-spacing: 4.8px;
     text-wrap: wrap;

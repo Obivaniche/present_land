@@ -23,7 +23,7 @@
                 <ul class="menu__list">
                     <li class="menu__item"><a href="work.html" class="menu__link link-hover">Work</a></li>
                     <li class="menu__item"><a href="contact.html" class="menu__link link-hover">Contact</a></li>
-                    <li class="menu__item"><button class="button button_header"><span>&mdash;</span> Get in touch</button></li>
+                    <li class="menu__item"><button class="button button_header" type="button"><span>&mdash;</span> Get in touch</button></li>
                 </ul>
             </nav>
         </header>
@@ -111,8 +111,7 @@
                     </p>
                 </div>
                 <div class="services__article">
-                    <h3 class="title title_article">02<span class="services__article-dot">&middot;</span>Logo design
-                    </h3>
+                    <h3 class="title title_article">02<span class="services__article-dot">&middot;</span>Logo design</h3>
                     <p class="services__article-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo quis imperdiet massa
@@ -120,8 +119,7 @@
                     </p>
                 </div>
                 <div class="services__article">
-                    <h3 class="title title_article">03<span class="services__article-dot">&middot;</span>Social media
-                    </h3>
+                    <h3 class="title title_article">03<span class="services__article-dot">&middot;</span>Social media</h3>
                     <p class="services__article-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo quis imperdiet massa
@@ -177,7 +175,7 @@
 
             <img src="images/star.svg" alt="Star" class="star star_cta">
             <h2 class="title title_cta">Let’s create<br>your new brand</h2>
-            <button class="button button_cta"><span>&mdash;</span> Get in touch</button>
+            <button class="button button_cta" type="button"><span>&mdash;</span> Get in touch</button>
         </section>
 
         <footer class="footer">
@@ -192,7 +190,7 @@
                         <li class="footer__list-item"><a class="footer__link link-hover" href="#">Home</a></li>
                         <li class="footer__list-item"><a class="footer__link link-hover" href="#">Work</a></li>
                         <li class="footer__list-item"><a class="footer__link link-hover" href="#">Work single</a></li>
-                        <li class="footer__list-item footer__list-item_button"><button class="button button_footer"><span>&mdash;</span> More templates</button></li>
+                        <li class="footer__list-item footer__list-item_button"><button class="button button_footer" type="button"><span>&mdash;</span> More templates</button></li>
                     </ul>
 
                     <ul class="footer__link-list">
@@ -215,6 +213,52 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup popup-contact">
+            <div class="popup__container">
+                <button class="button popup__close-button" type="button"></button>
+
+
+                <div class="popup__header-container">
+                    <h2 class="subtitle subtitle_popup"><span>&mdash;</span> Contact</h2>
+                    <h2 class="title title_popup">Get in <br>touch</h2>
+                    
+                    <div class="popup__owner">
+                        <img class="popup__owner-portrait" src="images/portrait.png" alt="Portrait">
+                        <div class="popup__owner-text">
+                            <h3 class="popup__owner-name">Finn Solveig</h3>
+                            <p class="popup__owner-post">Brand designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="form form-contact" name="place" novalidate>
+                    <fieldset class="form__set">
+
+                        <label class="form__field">
+                            <input id="name-input" class="form__input form__input_type_name" name="name" type="text"
+                                value="" minlength="2" maxlength="30" placeholder="Your Name" required>
+                            <span class="form__input-error name-input-error"></span>
+                        </label>
+
+                        <label class="form__field">
+                            <input id="email-input" class="form__input form__input_type_email" name="email" type="email"
+                                placeholder="Your email" required>
+                            <span class="form__input-error email-input-error"></span>
+                        </label>
+
+                        <label class="form__field">
+                            <input id="text-input" class="form__input form__input_type_text" name="text" type="text"
+                                value="" minlength="2" maxlength="200" placeholder="Your message" required>
+                            <span class="form__input-error text-input-error"></span>
+                        </label>
+
+                        <button class="button form__submit-button submit-contact" type="submit"><span>&mdash;</span> Send Message</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
     </div>
 
 </body>

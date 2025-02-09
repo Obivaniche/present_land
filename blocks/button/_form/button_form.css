@@ -1,0 +1,7 @@
+.button_form {
+    background-color: #FFF;
+    outline: 1px solid #000;
+    outline-offset: -1px;
+    user-select: none;
+    pointer-events: none;
+}

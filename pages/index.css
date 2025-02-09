@@ -1,6 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/_lock/main_lock.css);
+
+@import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
 
@@ -33,6 +38,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_cta/button_cta.css);
 @import url(../blocks/button/_footer/button_footer.css);
+@import url(../blocks/button/_form/button_form.css);
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_stats/title_stats.css);
@@ -96,3 +102,13 @@
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__header-container/popup__header-container.css);
 @import url(../blocks/popup/__owner/popup__owner.css);
+@import url(../blocks/popup/__owner-portrait/popup__owner-portrait.css);
+@import url(../blocks/popup/__owner-text/popup__owner-text.css);
+@import url(../blocks/popup/__owner-name/popup__owner-name.css);
+@import url(../blocks/popup/__owner-post/popup__owner-post.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__set/form__set.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__input/form__input.css);

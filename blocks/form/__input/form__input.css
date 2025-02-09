@@ -1,0 +1,38 @@
+.form__input {
+  margin: 0;
+  padding: 28px 24px 28px 24px;
+  width: calc(100% - 48px);
+  height: calc(100% - 56px);
+  border: none;
+  outline: none;
+  text-align: left;
+  font-family: 'ClashDisplay';
+  font-weight: 500;
+  line-height: 13px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #191919;
+}
+
+.form__input:last-of-type {
+  resize: none;
+}
+
+.form__input::placeholder {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'ClashDisplay';
+  font-weight: 500;
+  line-height: 13px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+.form__input:focus::placeholder {
+  color: transparent;
+}

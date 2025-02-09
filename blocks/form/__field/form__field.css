@@ -1,0 +1,11 @@
+.form__field {
+    margin: 0;
+    padding: 0;
+    border: 2px solid #000;
+    width: 598px;
+    height: 65px;
+}
+
+.form__field:last-of-type {
+    height: 200px;
+}

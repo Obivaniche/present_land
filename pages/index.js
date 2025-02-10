@@ -1,8 +1,11 @@
+// Попап
+// Элементы попапа
 const main = document.querySelector('.main');
 const popup = document.querySelectorAll('.popup');
 const popupContact = document.querySelector('.popup-contact');
 const buttonContacts = document.querySelectorAll('.button-contact');
 
+// Находим кнопки отрытия попапа
 if (buttonContacts.length > 0) {
     buttonContacts.forEach((buttonContact) => {
         buttonContact.addEventListener('click', onButtonContact);
@@ -18,11 +21,13 @@ if (buttonContacts.length > 0) {
     }
 };
 
+// Зкрываем попап
 function closePopup(popup) {
     popup.classList.remove('popup_opened');
     main.classList.remove('main_lock');
 };
 
+// Закрываем попап клавишей Esc
 popup.forEach((popup) =>
     document.addEventListener('keydown', event => {
         if (event.key === 'Escape') {
@@ -32,6 +37,7 @@ popup.forEach((popup) =>
     })
 );
 
+// Закрываем попап кликом на кнопку или вне окна
 popup.forEach((popup) =>
     popup.addEventListener('mousedown', (evt) => {
         if (
@@ -42,3 +48,12 @@ popup.forEach((popup) =>
         }
     })
 );
+
+// Форма
+// Находим форму
+const form = document.querySelector('.form');
+
+// Очищаем форму
+form.addEventListener('submit', (evt) => {
+    evt.target.reset();
+})

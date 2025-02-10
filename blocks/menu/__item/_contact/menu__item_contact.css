@@ -1,0 +1,7 @@
+.menu__item_contact {
+    margin: 0;
+}
+
+.menu__item_contact:last-of-type {
+    margin: 0;
+}

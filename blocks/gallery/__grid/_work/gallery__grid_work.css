@@ -1,0 +1,6 @@
+.gallery__grid_work {
+    margin: 0 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 48px 16px;
+}

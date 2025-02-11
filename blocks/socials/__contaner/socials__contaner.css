@@ -1,0 +1,8 @@
+.socials__contaner {
+    margin: 0 auto;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+}

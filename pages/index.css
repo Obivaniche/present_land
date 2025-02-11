@@ -54,6 +54,7 @@
 @import url(../blocks/title/_popup/title_popup.css);
 @import url(../blocks/title/_gallery/title_gallery.css);
 @import url(../blocks/title/_contact/title_contact.css);
+@import url(../blocks/title/_socials/title_socials.css);
 
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/_hero/subtitle_hero.css);
@@ -120,6 +121,8 @@
 @import url(../blocks/form/__set/form__set.css);
 @import url(../blocks/form/__field/form__field.css);
 @import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__submit-button/_disabled/form__submit-button_disabled.css);
+@import url(../blocks/form/__submit-button/_active/form__submit-button_active.css);
 
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contact/__container/contact__container.css);
@@ -129,3 +132,9 @@
 @import url(../blocks/contact/__owner-text/contact__owner-text.css);
 @import url(../blocks/contact/__owner-name/contact__owner-name.css);
 @import url(../blocks/contact/__owner-post/contact__owner-post.css);
+
+@import url(../blocks/socials/socials.css);
+@import url(../blocks/socials/__contaner/socials__contaner.css);
+@import url(../blocks/socials/__links-list/social__links-list.css);
+@import url(../blocks/socials/__list-item/socials__list-item.css);
+@import url(../blocks/socials/__link/socials__link.css);

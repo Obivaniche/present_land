@@ -56,4 +56,26 @@ const form = document.querySelector('.form');
 // Очищаем форму
 form.addEventListener('submit', (evt) => {
     evt.target.reset();
-})
+});
+
+// Отправка формы
+function serializeForm(formNode) {
+    return new FormData(formNode);
+};
+
+async function sendData(data) {
+    return await fetch('/api/apply/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'multipart/form-data' },
+        body: data,
+    });
+};
+
+async function handleFormSubmit(evt) {
+    evt.preventDefault();
+  
+    const data = serializeForm(evt.target);
+    const response = await sendData(data);
+  }
+
+form.addEventListener('submit', handleFormSubmit);

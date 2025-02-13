@@ -1,0 +1,8 @@
+.title_work-single{
+    margin: 64px auto 0 auto;
+    font-size: calc(24px + 88 * (100vw / 1920));
+    line-height: calc(24px + 88 * (100vw / 1920));
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

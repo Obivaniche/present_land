@@ -27,6 +27,7 @@
 @import url(../blocks/ticker/__item/ticker__item.css);
 @import url(../blocks/ticker/__item/_gallery/ticker__item_gallery.css);
 @import url(../blocks/ticker/__item/_cta/ticker__item_cta.css);
+@import url(../blocks/ticker/_loader/ticer_loader.css);
 
 @import url(../blocks/stats/stats.css);
 @import url(../blocks/stats/__container/stats__container.css);
@@ -55,6 +56,8 @@
 @import url(../blocks/title/_gallery/title_gallery.css);
 @import url(../blocks/title/_contact/title_contact.css);
 @import url(../blocks/title/_socials/title_socials.css);
+@import url(../blocks/title/_work-single/title_work-single.css);
+@import url(../blocks/title/_meta/title_meta.css);
 
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/_hero/subtitle_hero.css);
@@ -123,6 +126,8 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__submit-button/_disabled/form__submit-button_disabled.css);
 @import url(../blocks/form/__submit-button/_active/form__submit-button_active.css);
+@import url(../blocks/form/__loader/form__loader.css);
+@import url(../blocks/form/__loader/_active/form__loader_active.css);
 
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contact/__container/contact__container.css);
@@ -138,3 +143,13 @@
 @import url(../blocks/socials/__links-list/social__links-list.css);
 @import url(../blocks/socials/__list-item/socials__list-item.css);
 @import url(../blocks/socials/__link/socials__link.css);
+
+@import url(../blocks/meta/meta.css);
+@import url(../blocks/meta/__container/meta__container.css);
+@import url(../blocks/meta/__item/meta__item.css);
+@import url(../blocks/meta/__info/meta__info.css);
+
+@import url(../blocks/image/image.css);
+@import url(../blocks/image/__image/image__image.css);
+
+@import url(../blocks/values/values.css);

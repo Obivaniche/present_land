@@ -1,0 +1,7 @@
+.meta {
+    margin: 126px auto 0 auto;
+    padding: 0 160px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,4 @@
+.form__loader_active {
+    display: block;
+    opacity: 1;
+}

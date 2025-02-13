@@ -1,0 +1,8 @@
+.values {
+    margin: 160px auto 0 auto;
+    padding: 0 160px 160px 160px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    gap: 96px;
+}

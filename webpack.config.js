@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-let htmlPageNames = ['index', 'work', 'contact', 'workSingle'];
+let htmlPageNames = ['work', 'contact', 'workSingle'];
 let multipleHtmlPlugins = htmlPageNames.map(name => {
   return new HtmlWebpackPlugin({
     template: `./src/${name}.html`, // относительный путь к HTML-файлам
@@ -14,7 +14,6 @@ let multipleHtmlPlugins = htmlPageNames.map(name => {
 
 module.exports = {
   entry: { main: './src/pages/index.js',
-    index: './src/pages/index.js',
     work: './src/pages/index.js',
     contact: './src/pages/index.js',
     workSingle: './src/pages/index.js'

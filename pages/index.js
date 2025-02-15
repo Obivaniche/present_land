@@ -1,3 +1,6 @@
+// Стили
+import './index.css';
+
 // Попап
 // Элементы попапа
 const main = document.querySelector('.main');

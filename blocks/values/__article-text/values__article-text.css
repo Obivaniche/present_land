@@ -1,0 +1,9 @@
+.values__article-text {
+    margin: 16px 0 0 0;
+    padding: 0;
+    font-family: 'Satoshi';
+    line-height: calc(24px + 6.6 * (100vw / 1920));
+    font-size: calc(14px + 4 * (100vw / 1920));
+    font-weight: 400;
+    text-align: left;
+}

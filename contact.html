@@ -5,19 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sieve Studio</title>
-
-    <link rel="stylesheet" href="pages/index.css">
-    <script src="pages/index.js" defer></script>
 </head>
 
 <body class="main">
 
     <div class="page">
 
-        <header class="header">
+        <header class="header header_contact">
             <a href="index.html" class="header__link">
-                <img src="images/star.svg" alt="Star" class="star">
-                <img src="images/logo.svg" alt="Solveig logo" class="logo">
+                <img src="<%=require('./images/star.svg')%>" alt="Star" class="star">
+                <img src="<%=require('./images/logo.svg')%>" alt="Solveig logo" class="logo">
             </a>
 
             <nav class="menu">
@@ -40,7 +37,7 @@
                     <h2 class="title title_contact">Get in <br>touch</h2>
 
                     <div class="contact__owner">
-                        <img class="contact__owner-portrait" src="images/portrait.png" alt="Portrait">
+                        <img class="contact__owner-portrait" src="<%=require('./images/portrait.png')%>" alt="Portrait">
                         <div class="contact__owner-text">
                             <h3 class="contact__owner-name">Finn Solveig</h3>
                             <p class="contact__owner-post">Brand designer</p>
@@ -106,8 +103,8 @@
         <footer class="footer">
             <div class="footer__container">
                 <a href="index.html" class="header__link">
-                    <img src="images/star.svg" alt="Star" class="star">
-                    <img src="images/logo_w.svg" alt="Solveig logo" class="logo">
+                    <img src="<%=require('./images/star.svg')%>" alt="Star" class="star">
+                    <img src="<%=require('./images/logo_w.svg')%>" alt="Solveig logo" class="logo">
                 </a>
                 <div class="footer__link-container">
                     <ul class="footer__link-list">

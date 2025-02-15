@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sieve Studio</title>
-
-    <link rel="stylesheet" href="pages/index.css">
-    <script src="pages/index.js" defer></script>
 </head>
 
 <body class="main">
@@ -16,8 +13,8 @@
 
         <header class="header">
             <a href="index.html" class="header__link">
-                <img src="images/star.svg" alt="Star" class="star">
-                <img src="images/logo.svg" alt="Solveig logo" class="logo">
+                <img src="<%=require('./images/star.svg')%>" alt="Star" class="star">
+                <img src="<%=require('./images/logo.svg')%>" alt="Solveig logo" class="logo">
             </a>
 
             <nav class="menu">
@@ -37,32 +34,32 @@
             <div class="gallery__grid gallery__grid_work">
                 <div class="gallery__card">
                     <div class="gallery__link">
-                        <a class="gallery__hover-link" href="#"></a>
-                        <img src="images/card-1.png" alt="Card image" class="gallery__card-img">
+                        <a class="gallery__hover-link" href="work-single.html"></a>
+                        <img src="<%=require('./images/card-1.png')%>" alt="Card image" class="gallery__card-img">
                     </div>
                     <h3 class="title title_card">Invision studio</h3>
                     <p class="gallery__card-subtitle">Packaging</p>
                 </div>
                 <div class="gallery__card">
                     <div class="gallery__link">
-                        <a class="gallery__hover-link" href="#"></a>
-                        <img src="images/card-2.png" alt="Card image" class="gallery__card-img">
+                        <a class="gallery__hover-link" href="work-single.html"></a>
+                        <img src="<%=require('./images/card-2.png')%>" alt="Card image" class="gallery__card-img">
                     </div>
                     <h3 class="title title_card">Invision studio</h3>
                     <p class="gallery__card-subtitle">Poster</p>
                 </div>
                 <div class="gallery__card">
                     <div class="gallery__link">
-                        <a class="gallery__hover-link" href="#"></a>
-                        <img src="images/card-3.png" alt="Card image" class="gallery__card-img">
+                        <a class="gallery__hover-link" href="work-single.html"></a>
+                        <img src="<%=require('./images/card-3.png')%>" alt="Card image" class="gallery__card-img">
                     </div>
                     <h3 class="title title_card">Logo agency</h3>
                     <p class="gallery__card-subtitle">Social media</p>
                 </div>
                 <div class="gallery__card">
                     <div class="gallery__link">
-                        <a class="gallery__hover-link" href="#"></a>
-                        <img src="images/card-4.png" alt="Card image" class="gallery__card-img">
+                        <a class="gallery__hover-link" href="work-single.html"></a>
+                        <img src="<%=require('./images/card-4.png')%>" alt="Card image" class="gallery__card-img">
                     </div>
                     <h3 class="title title_card">Design agency</h3>
                     <p class="gallery__card-subtitle">Branding</p>
@@ -88,7 +85,7 @@
                 </div>
             </div>
 
-            <img src="images/star.svg" alt="Star" class="star star_cta">
+            <img src="<%=require('./images/star.svg')%>" alt="Star" class="star star_cta">
             <h2 class="title title_cta">Let’s create<br>your new brand</h2>
             <button class="button button_cta button-contact" type="button"><span>&mdash;</span> Get in touch</button>
         </section>
@@ -96,8 +93,8 @@
         <footer class="footer">
             <div class="footer__container">
                 <a href="index.html" class="header__link">
-                    <img src="images/star.svg" alt="Star" class="star">
-                    <img src="images/logo_w.svg" alt="Solveig logo" class="logo">
+                    <img src="<%=require('./images/star.svg')%>" alt="Star" class="star">
+                    <img src="<%=require('./images/logo_w.svg')%>" alt="Solveig logo" class="logo">
                 </a>
                 <div class="footer__link-container">
                     <ul class="footer__link-list">
@@ -147,7 +144,7 @@
                     <h2 class="title title_popup">Get in <br>touch</h2>
 
                     <div class="popup__owner">
-                        <img class="popup__owner-portrait" src="images/portrait.png" alt="Portrait">
+                        <img class="popup__owner-portrait" src="<%=require('./images/portrait.png')%>" alt="Portrait">
                         <div class="popup__owner-text">
                             <h3 class="popup__owner-name">Finn Solveig</h3>
                             <p class="popup__owner-post">Brand designer</p>

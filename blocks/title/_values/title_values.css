@@ -1,0 +1,10 @@
+.title_values {
+    margin: 16px 0 0 0;
+    line-height: calc(24px + 56 * (100vw / 1920));;
+    font-size: calc(24px + 56 * (100vw / 1920));
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+    text-wrap: wrap;
+}

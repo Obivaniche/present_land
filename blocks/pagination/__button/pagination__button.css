@@ -1,0 +1,11 @@
+.pagination__button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pagination__button:hover {
+    outline: 1px solid #D2F65A;
+}

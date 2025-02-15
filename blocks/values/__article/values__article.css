@@ -1,0 +1,9 @@
+.values__article {
+    background-color: #F8F8F8;
+    margin: 0 0 32px 0;
+    padding: 48px;
+}
+
+.values__article:last-of-type {
+    margin: 0;
+}

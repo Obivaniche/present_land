@@ -1,0 +1,7 @@
+.pagination {
+    margin: 64px 48px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

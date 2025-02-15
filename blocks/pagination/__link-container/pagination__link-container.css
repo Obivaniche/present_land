@@ -1,0 +1,9 @@
+.pagination__link-container {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #000;
+}
+
+.pagination__link-container:hover {
+    border-bottom: 1px solid #D2F65A;
+}

@@ -1,0 +1,12 @@
+.pagination__link {
+    margin: 0 0 0 0;
+    padding: 0 0 4px 0;
+    color: #000;
+    font-family: 'ClashDisplay';
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-decoration: none;
+}

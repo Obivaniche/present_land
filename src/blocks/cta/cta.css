@@ -6,3 +6,11 @@
     justify-content: center;
     background-color: #000;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .cta {
+        padding: 0 0 80px 0;
+    }
+
+}

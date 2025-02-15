@@ -12,7 +12,6 @@
 
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__item/menu__item.css);
-@import url(../blocks/menu/__item/_contact/menu__item_contact.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
 

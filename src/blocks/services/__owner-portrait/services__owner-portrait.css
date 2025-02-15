@@ -7,3 +7,12 @@
     position: relative;
     bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .services__owner-portrait {
+        width: 60px;
+        height: 60px;
+    }
+
+}

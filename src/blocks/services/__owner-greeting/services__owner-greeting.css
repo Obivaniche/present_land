@@ -9,3 +9,12 @@
     text-align: left;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .services__owner-greeting {
+        line-height: 16px;
+        font-size: 16px;
+    }
+
+}

@@ -1,7 +1,15 @@
 .stats {
     margin: 0;
-    padding: 0 160px 0 160px;
+    padding: 0 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .stats {
+        padding: 0 40px;
+    }
+
 }

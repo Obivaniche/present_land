@@ -3,3 +3,11 @@
     height: 58px;
     background-color: #FFF;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .ticker_gallery {
+        height: 45.6px;
+    }
+
+}

@@ -6,3 +6,12 @@
     letter-spacing: 1px;
     padding: 0 16px 0 0;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .ticker__item_gallery {
+        font-size: 36px;
+        line-height: 45.6px;
+    }
+
+}

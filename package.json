@@ -10,7 +10,6 @@
   },
   "author": "Vladislav Smirnov",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
@@ -29,5 +28,14 @@
   },
   "dependencies": {
     "core-js": "^3.40.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obivaniche/present_land.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Obivaniche/present_land/issues"
+  },
+  "homepage": "https://github.com/Obivaniche/present_land#readme",
+  "description": ""
 }

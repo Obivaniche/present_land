@@ -7,3 +7,12 @@
     align-items: center;
     gap: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .logos {
+        margin: 96px auto 0 auto;
+        padding: 0 80px;
+    }
+
+}

@@ -10,3 +10,12 @@
     text-transform: uppercase;
     color: rgba(25, 25, 25, 0.7);
 }
+
+@media screen and (max-width: 1024px) {
+
+    .services__owner-post {
+        line-height: 8px;
+        font-size: 8px;
+    }
+
+}

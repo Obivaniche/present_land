@@ -1,3 +1,13 @@
 .subtitle_hero {
     text-transform: uppercase;
+    line-height: calc(24px + 24 * (100vw / 1920));
+    font-size: calc(24px + 32.6 * (100vw / 1920));
+}
+
+@media screen and (max-width: 1024px) {
+
+    .subtitle_hero {
+        margin: 16px 24px 0 24px;
+    }
+
 }

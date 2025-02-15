@@ -6,3 +6,12 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .stats__item {
+        margin: 48px auto 0 auto;
+        width: 218px;
+    }
+
+}

@@ -13,4 +13,5 @@
     text-decoration: none;
     height: 13px;
     text-wrap: nowrap;
+    white-space: nowrap;
 }

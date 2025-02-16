@@ -90,7 +90,7 @@
 .footer__list-item{height:13px;margin:0 0 32px;padding:0;width:100%}.footer__list-item:last-of-type{margin:0}.footer__list-item:first-of-type{height:24px}
 .footer__list-item_button{height:44px}
 .footer__list-item_copy{height:13px;margin:0 32px 0 0;width:100%}.footer__list-item_copy:first-of-type{height:13px}.footer__list-item_copy:last-of-type{margin:0}
-.footer__link{color:#fff;display:flex;font-family:ClashDisplay;font-size:13px;font-weight:500;height:13px;letter-spacing:2px;line-height:13px;margin:0;padding:0;text-align:left;text-decoration:none;text-transform:uppercase;text-wrap:nowrap}
+.footer__link{color:#fff;display:flex;font-family:ClashDisplay;font-size:13px;font-weight:500;height:13px;letter-spacing:2px;line-height:13px;margin:0;padding:0;text-align:left;text-decoration:none;text-transform:uppercase;text-wrap:nowrap;white-space:nowrap}
 .footer__link_copy{color:#fff;font-family:ClashDisplay;font-size:13px;font-weight:500;letter-spacing:2px;line-height:13px;margin:0;opacity:.7;padding:0;text-align:left;text-decoration:none;text-transform:uppercase}
 .footer__copy{color:#fff;font-family:ClashDisplay;font-size:13px;font-weight:500;letter-spacing:2px;line-height:13px;margin:0;opacity:.7;padding:0;text-align:left;text-decoration:none;text-transform:uppercase}
 .logo{display:block;height:16px;margin:0 0 0 8px;padding:0;width:109px}

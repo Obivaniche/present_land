@@ -7,3 +7,11 @@
     gap: 32px;
     border: none;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .form__set {
+        padding: 0 0 0 40px;
+    }
+
+}

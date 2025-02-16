@@ -12,8 +12,11 @@
 
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link-container/menu__link-container.css);
+@import url(../blocks/menu/__link-container/_active/menu__link-container_active.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_active/menu__link_active.css);
+@import url(../blocks/menu/__link/_mobile/menu__link_mobile.css);
 
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__logo/hero__logo.css);
@@ -45,6 +48,7 @@
 @import url(../blocks/button/_footer/button_footer.css);
 @import url(../blocks/button/_form/button_form.css);
 @import url(../blocks/button/_hidden/button_hidden.css);
+@import url(../blocks/button/_mobile/button_mobile.css);
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_stats/title_stats.css);
@@ -92,6 +96,7 @@
 @import url(../blocks/gallery/__card-img/_single-work/gallery__card-img_single-work.css);
 @import url(../blocks/gallery/__card-subtitle/gallery__card-subtitle.css);
 @import url(../blocks/gallery/__hover-link/gallery__hover-link.css);
+@import url(../blocks/gallery/__hover-link/_mobile/gallery__hover-link_mobile.css);
 @import url(../blocks/gallery/__link/gallery__link.css);
 
 @import url(../blocks/cta/cta.css);
@@ -106,6 +111,7 @@
 @import url(../blocks/footer/__list-item/_button/footer__list-item_button.css);
 @import url(../blocks/footer/__list-item/_copy/footer__list-item_copy.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_mobile/footer__link_mobile.css);
 @import url(../blocks/footer/__link/_copy/footer__link_copy.css);
 @import url(../blocks/footer/__copy/footer__copy.css);
 
@@ -115,6 +121,7 @@
 @import url(../blocks/star/_services/star_services.css);
 @import url(../blocks/star/_cta/star_cta.css);
 @import url(../blocks/star/_values/star_values.css);
+@import url(../blocks/star/_mobile/star_mobile.css);
 
 @import url(../blocks/link-hover/link-hover.css);
 
@@ -152,6 +159,7 @@
 @import url(../blocks/socials/__links-list/social__links-list.css);
 @import url(../blocks/socials/__list-item/socials__list-item.css);
 @import url(../blocks/socials/__link/socials__link.css);
+@import url(../blocks/socials/__link/_mobile/socials__link_mobile.css);
 
 @import url(../blocks/meta/meta.css);
 @import url(../blocks/meta/__container/meta__container.css);
@@ -173,4 +181,6 @@
 @import url(../blocks/pagination/__image/pagination__image.css);
 @import url(../blocks/pagination/__button-text/pagination__button-text.css);
 @import url(../blocks/pagination/__link-container/pagination__link-container.css);
+@import url(../blocks/pagination/__link-container/_mobile/pagination__link-container_mobile.css);
 @import url(../blocks/pagination/__link/pagination__link.css);
+@import url(../blocks/pagination/__link/_mobile/pagination__link_mobile.css);

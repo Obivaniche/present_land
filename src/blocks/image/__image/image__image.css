@@ -1,4 +1,12 @@
 .image__image {
     display: block;
-    margin: 0 48px 0 48px;
+    margin: 0 48px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image__image {
+        margin: 0 24px;
+    }
+
 }

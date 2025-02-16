@@ -125,3 +125,68 @@ function checkValidity(evt) {
 
 // Слушатель кнопки отправки
 form.addEventListener('input', checkValidity);
+
+// Определяем устройство
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    // Отключаем ховер эффекты
+    const linksFooter = document.querySelectorAll('.footer__link');
+    if (linksFooter.length > 0) {
+        linksFooter.forEach((linkFooter) => {
+            linkFooter.classList.add('footer__link_mobile');
+        });
+    };
+
+    const linksMenu = document.querySelectorAll('.menu__link');
+    if (linksMenu.length > 0) {
+        linksMenu.forEach((linkMenu) => {
+            linkMenu.classList.add('menu__link_mobile');
+        });
+    };
+
+    const containersMenulink = document.querySelectorAll('.menu__link-container');
+    if (containersMenulink.length > 0) {
+        containersMenulink.forEach((containerMenulink) => {
+            containerMenulink.classList.add('menu__link-container_mobile');
+        });
+    };
+
+    const linksSocial = document.querySelectorAll('.socials__link');
+    if (linksSocial.length > 0) {
+        linksSocial.forEach((link) => {
+            link.classList.add('socials__link_mobile');
+        });
+    };
+
+    const stars = document.querySelectorAll('.star');
+    if (stars.length > 0) {
+        stars.forEach((star) => {
+            star.classList.add('star_mobile');
+        });
+    };
+
+    const buttons = document.querySelectorAll('.button');
+    if (buttons.length > 0) {
+        buttons.forEach((button) => {
+            button.classList.add('button_mobile');
+            form.querySelector('.button').classList.remove('button_mobile');
+        });
+    };
+
+    const galleryLinks = document.querySelectorAll('.gallery__hover-link');
+    if (galleryLinks.length > 0) {
+        galleryLinks.forEach((galleryLink) => {
+            galleryLink.classList.add('gallery__hover-link_mobile');
+        });
+    };
+
+    const linkPagination = document.querySelector('.pagination__link');
+    if (linkPagination !== null) {
+        linkPagination.classList.add('pagination__link_mobile');
+      }
+
+      const linkPaginationContaner = document.querySelector('.pagination__link-container');
+      if (linkPaginationContaner !== null) {
+        linkPaginationContaner.classList.add('pagination__link-container_mobile');
+        }
+    
+};

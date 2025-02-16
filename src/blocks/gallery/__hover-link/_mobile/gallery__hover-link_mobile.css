@@ -1,0 +1,7 @@
+.gallery__hover-link_mobile {
+    opacity: 1;
+    backdrop-filter: none;
+    background-position: 95% 5%;
+    outline: 5px solid #D2F65A;
+    outline-offset: -5px;
+}

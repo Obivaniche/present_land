@@ -6,3 +6,11 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .title_gallery {
+        margin: 32px auto 48px auto;
+    }
+
+}

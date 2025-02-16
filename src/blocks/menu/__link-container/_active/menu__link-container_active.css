@@ -1,0 +1,4 @@
+.menu__link-container_active {
+    border-bottom: 1px solid #000 !important;
+    margin-bottom: -1px;
+}

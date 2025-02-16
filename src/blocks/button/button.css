@@ -30,11 +30,3 @@
     background-color: #000;
     border: none;
 }
-
-@media screen and (max-width: 1024px) {
-
-    .button:hover{
-        background-color: #D2F65A;
-    }
-
-}

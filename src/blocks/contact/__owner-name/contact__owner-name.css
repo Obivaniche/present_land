@@ -1,7 +1,7 @@
 .contact__owner-name {
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
     font-family: 'ClashDisplay';
     font-weight: 500;
     line-height: 20px;
@@ -10,4 +10,13 @@
     text-decoration: none;
     color: #000;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .contact__owner-name  {
+        line-height: 16px;
+        font-size: 16px;
+    }
+
 }

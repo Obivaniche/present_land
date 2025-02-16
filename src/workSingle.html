@@ -19,9 +19,8 @@
 
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__item"><a href="work.html" class="menu__link link-hover">Work</a>
-                    </li>
-                    <li class="menu__item"><a href="contact.html" class="menu__link link-hover">Contact</a></li>
+                    <li class="menu__item"><div class="menu__link-container"><a href="work.html" class="menu__link link-hover">Work</a></div></li>
+                    <li class="menu__item"><div class="menu__link-container"><a href="contact.html" class="menu__link link-hover">Contact</a></div></li>
                     <li class="menu__item"><button class="button button_header button-contact"
                             type="button"><span>&mdash;</span> Get in touch</button></li>
                 </ul>
@@ -140,14 +139,21 @@
                     <div class="ticker__item ticker__item_single-work">&middot; Gallery &middot; Gallery &middot;
                         Gallery
                     </div>
+                    <div class="ticker__item ticker__item_single-work">&middot; Gallery &middot; Gallery &middot;
+                        Gallery
+                    </div>
                 </div>
             </div>
 
             <div class="gallery__grid gallery__grid_single-work">
-                <img src="<%=require('./images/card-1.png')%>" alt="Card image" class="gallery__card-img gallery__card-img_single-work">
-                <img src="<%=require('./images/card-2.png')%>" alt="Card image" class="gallery__card-img gallery__card-img_single-work">
-                <img src="<%=require('./images/card-3.png')%>" alt="Card image" class="gallery__card-img gallery__card-img_single-work">
-                <img src="<%=require('./images/card-4.png')%>" alt="Card image" class="gallery__card-img gallery__card-img_single-work">
+                <img src="<%=require('./images/card-1.png')%>" alt="Card image"
+                    class="gallery__card-img gallery__card-img_single-work">
+                <img src="<%=require('./images/card-2.png')%>" alt="Card image"
+                    class="gallery__card-img gallery__card-img_single-work">
+                <img src="<%=require('./images/card-3.png')%>" alt="Card image"
+                    class="gallery__card-img gallery__card-img_single-work">
+                <img src="<%=require('./images/card-4.png')%>" alt="Card image"
+                    class="gallery__card-img gallery__card-img_single-work">
             </div>
         </section>
 
@@ -161,9 +167,9 @@
             </div>
 
             <div class="pagination__link-container">
-                <a class="pagination__link link-hover" href="index.html">Go back</a>
+                <a class="pagination__link link-hover" href="index.html" id="paginationLink ">Go back</a>
             </div>
-            
+
 
             <div class="pagination__button">
                 <img class="pagination__image" src="<%=require('./images/card-2.png')%>" alt="Card image">

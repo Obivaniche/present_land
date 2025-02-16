@@ -10,11 +10,3 @@
 .star:hover {
     transform: rotate(180deg);
 }
-
-@media screen and (max-width: 1024px) {
-
-    .star {
-        pointer-events: none;
-    }
-
-}

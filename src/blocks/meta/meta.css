@@ -5,3 +5,12 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .meta {
+        margin: 64px auto 0 auto;
+        padding: 0 40px;
+    }
+
+}

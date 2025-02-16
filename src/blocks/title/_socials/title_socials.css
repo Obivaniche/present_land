@@ -1,8 +1,8 @@
 .title_socials {
     margin: 16px 0;
     text-align: left;
-    line-height: 38.4px;
-    font-size: 32px;
+    font-size: calc(24px + 14.4 * (100vw / 1920));
+    line-height: calc(24px + 8 * (100vw / 1920));
     letter-spacing: 1px;
     text-transform: uppercase;
 }

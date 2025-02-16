@@ -5,3 +5,12 @@
     width: 80px;
     height: 80px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .popup__owner-portrait {
+        width: 60px;
+        height: 60px;
+    }
+
+}

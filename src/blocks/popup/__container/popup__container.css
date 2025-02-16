@@ -6,3 +6,12 @@
     background-color: #FFF;
     position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .popup__container {
+        width: 100%;
+        padding: 40px;
+    }
+
+}

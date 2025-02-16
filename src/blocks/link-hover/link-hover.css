@@ -1,11 +1,3 @@
 .link-hover:hover {
-    color: #D2F65A;
-}
-
-@media screen and (max-width: 1024px) {
-
-    .link-hover:hover {
-        color: #FFF;
-    }
-
+    color: #D2F65A; 
 }

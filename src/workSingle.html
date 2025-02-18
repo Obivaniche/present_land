@@ -19,8 +19,14 @@
 
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__item"><div class="menu__link-container"><a href="work.html" class="menu__link link-hover">Work</a></div></li>
-                    <li class="menu__item"><div class="menu__link-container"><a href="contact.html" class="menu__link link-hover">Contact</a></div></li>
+                    <li class="menu__item">
+                        <div class="menu__link-container"><a href="work.html" class="menu__link link-hover">Work</a>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <div class="menu__link-container"><a href="contact.html"
+                                class="menu__link link-hover">Contact</a></div>
+                    </li>
                     <li class="menu__item"><button class="button button_header button-contact"
                             type="button"><span>&mdash;</span> Get in touch</button></li>
                 </ul>
@@ -158,7 +164,7 @@
         </section>
 
         <section class="pagination">
-            <div class="pagination__button">
+            <div class="pagination__button pagination__button_prev">
                 <img class="pagination__image" src="<%=require('./images/card-1.png')%>" alt="Card image">
                 <div class="pagination__button-text">
                     <h3 class="subtitle subtitle_pagination">Previous</h3>
@@ -170,8 +176,7 @@
                 <a class="pagination__link link-hover" href="index.html" id="paginationLink ">Go back</a>
             </div>
 
-
-            <div class="pagination__button">
+            <div class="pagination__button pagination__button_next">
                 <img class="pagination__image" src="<%=require('./images/card-2.png')%>" alt="Card image">
                 <div class="pagination__button-text">
                     <h3 class="subtitle subtitle_pagination">Next</h3>

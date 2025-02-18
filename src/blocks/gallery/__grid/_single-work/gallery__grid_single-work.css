@@ -4,3 +4,14 @@
     grid-template-columns: repeat(2, 50%);
     gap: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .gallery__grid_single-work {
+        margin: 48px 24px 0 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

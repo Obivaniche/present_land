@@ -182,11 +182,16 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     const linkPagination = document.querySelector('.pagination__link');
     if (linkPagination !== null) {
         linkPagination.classList.add('pagination__link_mobile');
-      }
+    }
 
-      const linkPaginationContaner = document.querySelector('.pagination__link-container');
-      if (linkPaginationContaner !== null) {
+    const linkPaginationContaner = document.querySelector('.pagination__link-container');
+    if (linkPaginationContaner !== null) {
         linkPaginationContaner.classList.add('pagination__link-container_mobile');
-        }
+    }
+
+    document.querySelector('.pagination__button_prev')
+    .innerHTML = "<div class='pagination__button pagination__button_mobile-prev'><h3 class='subtitle subtitle_pagination'>Prev</h3></div>";
     
+    document.querySelector('.pagination__button_next')
+    .innerHTML = "<div class='pagination__button pagination__button_mobile-next'><h3 class='subtitle subtitle_pagination'>Next</h3></div>";
 };

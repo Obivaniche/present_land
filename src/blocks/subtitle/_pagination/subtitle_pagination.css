@@ -10,3 +10,13 @@
     opacity: 0.7;
     text-align: left;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .subtitle_pagination {
+        margin: 20px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+}

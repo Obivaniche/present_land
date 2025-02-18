@@ -1,4 +1,16 @@
 .menu__link-container_active {
-    border-bottom: 1px solid #000 !important;
+    border-bottom: 1px solid #000;
     margin-bottom: -1px;
+}
+
+.menu__link-container_active:hover {
+    border-bottom: 1px solid #D2F65A;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .menu__link-container_active:hover {
+        border-bottom: 1px solid #000;
+    }
+
 }

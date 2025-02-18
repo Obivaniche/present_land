@@ -189,9 +189,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         linkPaginationContaner.classList.add('pagination__link-container_mobile');
     }
 
-    document.querySelector('.pagination__button_prev')
-    .innerHTML = "<div class='pagination__button pagination__button_mobile-prev'><h3 class='subtitle subtitle_pagination'>Prev</h3></div>";
+    const paginationButtonPrev = document.querySelector('.pagination__button_prev');
+    if (paginationButtonPrev !== null) {
+        paginationButtonPrev.innerHTML = "<div class='pagination__button pagination__button_mobile-prev'><h3 class='subtitle subtitle_pagination'>Prev</h3></div>";
+    };
     
-    document.querySelector('.pagination__button_next')
-    .innerHTML = "<div class='pagination__button pagination__button_mobile-next'><h3 class='subtitle subtitle_pagination'>Next</h3></div>";
+    const paginationButtonNext = document.querySelector('.pagination__button_next');
+    if (paginationButtonNext !== null) {
+        paginationButtonNext.innerHTML = "<div class='pagination__button pagination__button_mobile-next'><h3 class='subtitle subtitle_pagination'>Next</h3></div>";
+    };
 };

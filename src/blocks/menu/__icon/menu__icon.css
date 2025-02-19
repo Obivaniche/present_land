@@ -1,0 +1,44 @@
+.menu__icon {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin: 16px 24px 0 auto;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.menu__icon span,
+.menu__icon::before,
+.menu__icon::after {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: #D2F65A;
+    transition: all .4s ease 0s;
+}
+
+.menu__icon::before,
+.menu__icon::after {
+    content: '';
+}
+
+.menu__icon::before {
+    top: 0;
+}
+
+.menu__icon::after {
+    bottom: 0;
+}
+
+.menu__icon span {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+@media screen and (min-width: 1440px) {
+
+    .menu__icon {
+        display: none;
+    }
+
+}

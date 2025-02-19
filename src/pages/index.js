@@ -234,15 +234,9 @@ const cardGrid = document.querySelector('.gallery__grid_single-work');
 
 // Используем массив для заполнения карточек созданных методом Template
 initialCards.forEach(function (cardInfo) {
-
-    // Клонируем содержимое тега template
     const cardElement = cardTemplate.querySelector('.card').cloneNode(true);
-
-    // Наполняем блоки шаблона Template содержимым массива
     cardElement.querySelector('.gallery__card-img_single-work').src = cardInfo.link;
     cardElement.querySelector('.gallery__card-img_single-work').alt = cardInfo.name;
-
-    // Отображаем карточки на странице
     cardGrid.append(cardElement);
 });
 

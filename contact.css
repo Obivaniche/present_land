@@ -8,8 +8,8 @@
 .header__link{align-items:center;display:flex;text-decoration:none}
 .menu__list{align-items:center;display:flex;list-style:none;margin:0;padding:0}
 .menu__item{margin:0 0 0 30px;padding:0}.menu__item:first-of-type{margin:0}.menu__item:last-of-type{margin:0 0 0 48px}
-.menu__link-container{margin:0;padding:0}.menu__link-container:hover{border-bottom:1px solid #d2f65a;margin-bottom:-1px}
-.menu__link-container_active{border-bottom:1px solid #000!important;margin-bottom:-1px}
+.menu__link-container{margin:0;padding:0}.menu__link-container:hover{border-bottom:1px solid #d2f65a;margin-bottom:-1px}@media screen and (max-width:1024px){.menu__link-container:hover{border-bottom:1px solid #000}}
+.menu__link-container_active{border-bottom:1px solid #000;margin-bottom:-1px}.menu__link-container_active:hover{border-bottom:1px solid #d2f65a}@media screen and (max-width:1024px){.menu__link-container_active:hover{border-bottom:1px solid #000}}
 .menu__link{color:#000;display:flex;font-family:ClashDisplay;font-size:13px;font-weight:500;height:100%;letter-spacing:2px;line-height:13px;margin:0;padding:0 0 4px;text-decoration:none;text-transform:uppercase;width:100%}
 .menu__link_active{text-decoration:underline}
 .menu__link_mobile:hover{color:#000!important}
@@ -80,7 +80,7 @@
 .gallery__grid_single-work{display:grid;gap:16px;grid-template-columns:repeat(2,50%);margin:48px 48px 0}@media screen and (max-width:1024px){.gallery__grid_single-work{display:flex;flex-direction:column;justify-content:center;margin:48px 24px 0}}
 .gallery__card{display:flex;flex-direction:column;margin:0 auto;max-width:904px;padding:0;position:relative}
 .gallery__card-img{display:block;height:auto;margin:0;max-width:100%;padding:0}
-.gallery__card-img_single-work{margin:0 auto}
+.gallery__card-img_single-work{cursor:pointer;margin:0 auto}.gallery__card-img_single-work:hover{outline:10px solid #d2f65a;outline-offset:-10px}
 .gallery__card-subtitle{color:rgba(25,25,25,.7);font-family:ClashDisplay;font-size:13px;font-weight:500;letter-spacing:2px;line-height:13px;margin:8px 0 0;padding:0;text-align:left;text-transform:uppercase}
 .gallery__hover-link{-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background-image:url(b5b0990affb7fb61d21a.svg);background-position:50%;background-repeat:no-repeat;background-size:100px 100px;box-sizing:border-box;height:100%;opacity:0;outline:10px solid #d2f65a;outline-offset:-10px;position:absolute;width:100%}.gallery__hover-link:hover{opacity:1}
 .gallery__hover-link_mobile{-webkit-backdrop-filter:none;backdrop-filter:none;background-position:95% 5%;opacity:1;outline:5px solid #d2f65a;outline-offset:-5px}
@@ -116,6 +116,9 @@
 .popup__owner-name{color:#000;font-family:ClashDisplay;font-size:20px;font-weight:500;letter-spacing:2px;line-height:20px;margin:0;padding:0;text-align:center;text-decoration:none;text-transform:uppercase}@media screen and (max-width:1024px){.popup__owner-name{font-size:16px;line-height:16px;text-align:left}}
 .popup__owner-post{color:#000;font-family:ClashDisplay;font-size:13px;font-weight:500;letter-spacing:2px;line-height:13px;margin:4px 0 0;opacity:.7;padding:0;text-align:center;text-align:left;text-decoration:none;text-transform:uppercase}@media screen and (max-width:1024px){.popup__owner-post{font-size:8px;line-height:8px;text-align:left}}
 .popup_opened{opacity:1;transition:visibility 0s,.2s ease-in;visibility:visible}
+.popup__img-container{background-color:#fff;display:flex;flex-direction:column;justify-content:center;max-height:60%;max-width:60%;padding:160px;position:relative}@media screen and (max-width:1024px){.popup__img-container{max-height:85%;max-width:85%;padding:40px}}
+.popup__img{display:block;height:auto;margin:0;max-width:100%;-o-object-fit:cover;object-fit:cover;padding:0}
+.popup__discripton{color:#191919b2;font-family:ClashDisplay;font-size:24px;font-weight:500;letter-spacing:2px;line-height:24px;margin:48px 0 0;opacity:.7;text-align:left;text-transform:uppercase}
 .form{margin:0;padding:0}
 .form__set{border:none;display:flex;flex-direction:column;gap:32px;justify-content:left;margin:0;padding:0 64px}@media screen and (max-width:1024px){.form__set{padding:0 0 0 40px}}
 .form__field{border:2px solid #000;height:65px;margin:0;padding:0;width:598px}.form__field:last-of-type{height:200px}@media screen and (max-width:1024px){.form__field{width:396px}}

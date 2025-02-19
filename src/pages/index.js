@@ -207,12 +207,12 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     const linkPagination = document.querySelector('.pagination__link');
     if (linkPagination !== null) {
         linkPagination.classList.add('pagination__link_mobile');
-    }
+    };
 
     const linkPaginationContaner = document.querySelector('.pagination__link-container');
     if (linkPaginationContaner !== null) {
         linkPaginationContaner.classList.add('pagination__link-container_mobile');
-    }
+    };
 
     const paginationButtonPrev = document.querySelector('.pagination__button_prev');
     if (paginationButtonPrev !== null) {
@@ -225,6 +225,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     };
 };
 
+// Картинки
 // Находим шаблон карточки Template и получаем его содержимое
 const cardTemplate = document.querySelector('#card-template').content;
 
@@ -245,7 +246,6 @@ initialCards.forEach(function (cardInfo) {
     cardGrid.append(cardElement);
 });
 
-// Картинки
 // Попап с картинкой
 const popupImg = document.querySelector('.popup-img');
 

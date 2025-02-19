@@ -1,0 +1,12 @@
+.popup__discripton {
+    margin: 48px 0 0 0;
+    font-family: 'ClashDisplay';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #191919B2;
+    opacity: 0.7;
+    text-align: left;
+}

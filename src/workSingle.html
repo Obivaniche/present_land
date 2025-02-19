@@ -151,16 +151,7 @@
                 </div>
             </div>
 
-            <div class="gallery__grid gallery__grid_single-work">
-                <img src="<%=require('./images/card-1.png')%>" alt="Card image"
-                    class="gallery__card-img gallery__card-img_single-work">
-                <img src="<%=require('./images/card-2.png')%>" alt="Card image"
-                    class="gallery__card-img gallery__card-img_single-work">
-                <img src="<%=require('./images/card-3.png')%>" alt="Card image"
-                    class="gallery__card-img gallery__card-img_single-work">
-                <img src="<%=require('./images/card-4.png')%>" alt="Card image"
-                    class="gallery__card-img gallery__card-img_single-work">
-            </div>
+            <div class="gallery__grid gallery__grid_single-work"></div>
         </section>
 
         <section class="pagination">
@@ -312,6 +303,20 @@
                         </div>
                     </fieldset>
                 </form>
+            </div>
+        </div>
+
+        <template id="card-template">
+            <article class="card">
+                <img src="" alt="Card image" class="gallery__card-img gallery__card-img_single-work">
+            </article>
+        </template>
+
+        <div class="popup popup-img">
+            <div class="popup__img-container">
+                <button class="button popup__close-button" type="button"></button>
+                <img class="popup__img" src="" alt="Фотография карточки">
+                <p class="popup__discripton"></p>
             </div>
         </div>
 </body>

@@ -1,0 +1,20 @@
+.popup__img-container {
+    display: flex;
+    flex-direction: column;
+    padding: 160px;
+    justify-content: center;
+    background-color: #FFF;
+    position: relative;
+    max-width: 60%;
+    max-height: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .popup__img-container {
+        padding: 40px;
+        max-width: 85%;
+        max-height: 85%;
+    }
+
+}

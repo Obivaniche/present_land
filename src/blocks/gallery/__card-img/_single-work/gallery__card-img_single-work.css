@@ -1,3 +1,9 @@
 .gallery__card-img_single-work {
     margin: 0 auto;
+    cursor: pointer;
+}
+
+.gallery__card-img_single-work:hover {
+    outline: 10px solid #D2F65A;
+    outline-offset: -10px;
 }

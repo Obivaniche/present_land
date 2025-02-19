@@ -135,6 +135,9 @@
 @import url(../blocks/popup/__owner-name/popup__owner-name.css);
 @import url(../blocks/popup/__owner-post/popup__owner-post.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__img-container/popup__img-container.css);
+@import url(../blocks/popup/__img/popup__img.css);
+@import url(../blocks/popup/__discripton/popup__discripton.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__set/form__set.css);

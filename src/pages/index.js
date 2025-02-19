@@ -1,6 +1,31 @@
 // Стили
 import './index.css';
 
+// импорт картинок
+import imageBox from '../images/card-1.png';
+import imagePoster from '../images/card-2.png';
+import imagePack from '../images/card-3.png';
+import imageCan from '../images/card-3.png';
+
+// Массив данных для карточек
+const initialCards = [{
+    name: 'Vision studio',
+    link: imageBox
+},
+{
+    name: 'Vision studio',
+    link: imagePoster
+},
+{
+    name: 'Vision studio',
+    link: imagePack
+},
+{
+    name: 'Vision studio',
+    link: imageCan
+},
+];
+
 // Попап
 // Элементы попапа
 const main = document.querySelector('.main');
@@ -193,9 +218,55 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     if (paginationButtonPrev !== null) {
         paginationButtonPrev.innerHTML = "<div class='pagination__button pagination__button_mobile-prev'><h3 class='subtitle subtitle_pagination'>Prev</h3></div>";
     };
-    
+
     const paginationButtonNext = document.querySelector('.pagination__button_next');
     if (paginationButtonNext !== null) {
         paginationButtonNext.innerHTML = "<div class='pagination__button pagination__button_mobile-next'><h3 class='subtitle subtitle_pagination'>Next</h3></div>";
     };
 };
+
+// Находим шаблон карточки Template и получаем его содержимое
+const cardTemplate = document.querySelector('#card-template').content;
+
+// Находим блок в котором будет использован Template
+const cardGrid = document.querySelector('.gallery__grid_single-work');
+
+// Используем массив для заполнения карточек созданных методом Template
+initialCards.forEach(function (cardInfo) {
+
+    // Клонируем содержимое тега template
+    const cardElement = cardTemplate.querySelector('.card').cloneNode(true);
+
+    // Наполняем блоки шаблона Template содержимым массива
+    cardElement.querySelector('.gallery__card-img_single-work').src = cardInfo.link;
+    cardElement.querySelector('.gallery__card-img_single-work').alt = cardInfo.name;
+
+    // Отображаем карточки на странице
+    cardGrid.append(cardElement);
+});
+
+// Картинки
+// Попап с картинкой
+const popupImg = document.querySelector('.popup-img');
+
+// Находим поля попапа с картинкой
+const popupImgLink = document.querySelector('.popup__img');
+const popupImgTitle = document.querySelector('.popup__discripton');
+
+// Обработчик открытия попапа с картинкой
+function openPopupImg() {
+    popupImg.classList.add('popup_opened');
+  }
+
+// Открываем картинку fullscreen
+function openImgFullscreen(evt) {
+    if (evt.target.classList.contains('gallery__card-img_single-work')) {
+      popupImgLink.src = evt.target.src;
+      popupImgTitle.textContent = evt.target.closest('.card').querySelector('.gallery__card-img_single-work').alt;
+      main.classList.add('main_lock');
+      openPopupImg();
+      };
+    }
+  
+  // Прикрепляем обработчик к карточкам
+  cardGrid.addEventListener('click', openImgFullscreen);

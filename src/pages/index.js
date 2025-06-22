@@ -226,6 +226,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 };
 
 // Картинки
+const gallery = document.querySelector('.main_gallery');
+if (gallery !==null) {
 // Находим шаблон карточки Template и получаем его содержимое
 const cardTemplate = document.querySelector('#card-template').content;
 
@@ -264,3 +266,4 @@ function openImgFullscreen(evt) {
   
   // Прикрепляем обработчик к карточкам
   cardGrid.addEventListener('click', openImgFullscreen);
+};

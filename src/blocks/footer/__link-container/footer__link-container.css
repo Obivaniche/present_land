@@ -5,3 +5,12 @@
     gap: 48px;
     flex: 0.5;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .footer__link-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

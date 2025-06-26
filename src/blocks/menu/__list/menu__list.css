@@ -10,7 +10,7 @@
 
     .menu__list {
         display: flex;
-        margin: 98px 0 0 auto;
+        margin: 100px 10px 0 auto;
         padding: 0;
         flex-direction: column;
         justify-content: start;

@@ -7,3 +7,11 @@
 .services__article:last-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .services__article {
+        margin: 0;
+    }
+
+}

@@ -13,6 +13,7 @@
     .logos {
         margin: 96px auto 0 auto;
         padding: 0 80px;
+        flex-direction: column;
     }
 
 }

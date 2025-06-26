@@ -12,7 +12,8 @@
 
     .logos__container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 2 auto auto;
+        max-width: 375px;
     }
 
 }

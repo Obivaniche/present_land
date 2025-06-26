@@ -7,3 +7,11 @@
     max-width: 1600px;
     gap: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+}

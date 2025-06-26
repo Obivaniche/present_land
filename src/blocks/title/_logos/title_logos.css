@@ -4,3 +4,11 @@
     text-wrap: nowrap;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .title_logos {
+        margin: 0 0 0 24px;
+    }
+
+}

@@ -6,3 +6,11 @@
     justify-content: space-between;
     max-width: 752px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .services__heading {
+        margin: auto;
+    }
+
+}

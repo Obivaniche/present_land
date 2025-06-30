@@ -3,3 +3,11 @@
     padding: 0;
     max-width: 752px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .services__articles {
+        margin: 0 auto;
+    }
+
+}

@@ -11,7 +11,10 @@
 @media screen and (max-width: 1024px) {
 
     .services__article {
-        margin: 0;
+        margin: 0 0 24px 0;
     }
 
+    .services__article:last-of-type {
+        margin: 0 0 24px 0;
+    }
 }

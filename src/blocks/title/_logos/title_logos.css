@@ -5,10 +5,11 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 
     .title_logos {
-        margin: 0 0 0 24px;
+        margin: 0;
+        width: 100%;
     }
 
 }

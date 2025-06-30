@@ -10,3 +10,19 @@
 .menu__item:last-of-type {
     margin: 0 0 0 48px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .menu__item {
+        margin: 16px 0 0 auto;
+    }
+
+    .menu__item:first-of-type {
+        margin: 16px 0 0 auto;
+    }
+
+    .menu__item:last-of-type {
+        margin: 16px 0 0 auto;
+    }
+
+}

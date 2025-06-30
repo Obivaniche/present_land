@@ -1,0 +1,19 @@
+.menu__icon_active {
+    
+}
+
+.menu__icon_active span {
+    top: 50%;
+    transform: translate(0, -50%);
+    scale: 0;
+}
+
+.menu__icon_active:before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.menu__icon_active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}

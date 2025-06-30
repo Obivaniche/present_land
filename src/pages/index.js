@@ -1,7 +1,7 @@
 // Стили
 import './index.css';
 
-// импорт картинок
+// Импорт картинок
 import imageBox from '../images/card-1.png';
 import imagePoster from '../images/card-2.png';
 import imagePack from '../images/card-3.png';
@@ -223,6 +223,19 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     if (paginationButtonNext !== null) {
         paginationButtonNext.innerHTML = "<div class='pagination__button pagination__button_mobile-next'><h3 class='subtitle subtitle_pagination'>Next</h3></div>";
     };
+
+    // Меню
+    const menuIcon = document.querySelector('.menu__icon');
+    if (menuIcon) {
+        const menuContainer = document.querySelector('.menu__container');
+        const main = document.querySelector('.main');
+        menuIcon.addEventListener('click', function(e) {
+            main.classList.toggle('main_lock');
+            menuIcon.classList.toggle('menu__icon_active');
+            menuContainer.classList.toggle('menu__container_active');
+
+        })
+    }
 };
 
 // Картинки

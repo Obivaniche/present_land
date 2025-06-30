@@ -10,6 +10,7 @@
 @media screen and (max-width: 1024px) {
 
     .values {
+        display: block;
         margin: 96px auto 0 auto;
         padding: 0 40px 40px 40px;
         gap: 48px;

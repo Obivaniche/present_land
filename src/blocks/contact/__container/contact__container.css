@@ -4,5 +4,14 @@
     margin: 160px auto;
     padding: 0;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .contact__container {
+        display: block;
+        max-width: 100%;
+        margin: 80px 24px;
+    }
 
 }

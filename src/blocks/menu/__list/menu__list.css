@@ -10,11 +10,10 @@
 
     .menu__list {
         display: flex;
-        margin: 100px 10px 0 auto;
+        margin: 100px 24px 0 auto;
         padding: 0;
         flex-direction: column;
-        justify-content: start;
-        align-items: center;
+        justify-content: right;
     }
 
 }

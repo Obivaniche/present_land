@@ -32,6 +32,8 @@ const main = document.querySelector('.main');
 const popup = document.querySelectorAll('.popup');
 const popupContact = document.querySelector('.popup-contact');
 const buttonContacts = document.querySelectorAll('.button-contact');
+const menuContainer = document.querySelector('.menu__container');
+const menuIcon = document.querySelector('.menu__icon');
 
 // Находим кнопки отрытия попапа и открываем его
 if (buttonContacts.length > 0) {
@@ -44,6 +46,8 @@ if (buttonContacts.length > 0) {
         if (buttonContact) {
             popupContact.classList.add('popup_opened');
             main.classList.add('main_lock');
+            menuIcon.classList.toggle('menu__icon_active');
+            menuContainer.classList.toggle('menu__container_active');
             evt.preventDefault();
         }
     }
@@ -229,7 +233,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     if (menuIcon) {
         const menuContainer = document.querySelector('.menu__container');
         const main = document.querySelector('.main');
-        menuIcon.addEventListener('click', function(e) {
+        menuIcon.addEventListener('click', function (e) {
             main.classList.toggle('main_lock');
             menuIcon.classList.toggle('menu__icon_active');
             menuContainer.classList.toggle('menu__container_active');
@@ -239,43 +243,43 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 // Картинки
 const gallery = document.querySelector('.main_gallery');
-if (gallery !==null) {
-// Находим шаблон карточки Template и получаем его содержимое
-const cardTemplate = document.querySelector('#card-template').content;
+if (gallery !== null) {
+    // Находим шаблон карточки Template и получаем его содержимое
+    const cardTemplate = document.querySelector('#card-template').content;
 
-// Находим блок в котором будет использован Template
-const cardGrid = document.querySelector('.gallery__grid_single-work');
+    // Находим блок в котором будет использован Template
+    const cardGrid = document.querySelector('.gallery__grid_single-work');
 
-// Используем массив для заполнения карточек созданных методом Template
-initialCards.forEach(function (cardInfo) {
-    const cardElement = cardTemplate.querySelector('.card').cloneNode(true);
-    cardElement.querySelector('.gallery__card-img_single-work').src = cardInfo.link;
-    cardElement.querySelector('.gallery__card-img_single-work').alt = cardInfo.name;
-    cardGrid.append(cardElement);
-});
+    // Используем массив для заполнения карточек созданных методом Template
+    initialCards.forEach(function (cardInfo) {
+        const cardElement = cardTemplate.querySelector('.card').cloneNode(true);
+        cardElement.querySelector('.gallery__card-img_single-work').src = cardInfo.link;
+        cardElement.querySelector('.gallery__card-img_single-work').alt = cardInfo.name;
+        cardGrid.append(cardElement);
+    });
 
-// Попап с картинкой
-const popupImg = document.querySelector('.popup-img');
+    // Попап с картинкой
+    const popupImg = document.querySelector('.popup-img');
 
-// Находим поля попапа с картинкой
-const popupImgLink = document.querySelector('.popup__img');
-const popupImgTitle = document.querySelector('.popup__discripton');
+    // Находим поля попапа с картинкой
+    const popupImgLink = document.querySelector('.popup__img');
+    const popupImgTitle = document.querySelector('.popup__discripton');
 
-// Обработчик открытия попапа с картинкой
-function openPopupImg() {
-    popupImg.classList.add('popup_opened');
-  }
-
-// Открываем картинку fullscreen
-function openImgFullscreen(evt) {
-    if (evt.target.classList.contains('gallery__card-img_single-work')) {
-      popupImgLink.src = evt.target.src;
-      popupImgTitle.textContent = evt.target.closest('.card').querySelector('.gallery__card-img_single-work').alt;
-      main.classList.add('main_lock');
-      openPopupImg();
-      };
+    // Обработчик открытия попапа с картинкой
+    function openPopupImg() {
+        popupImg.classList.add('popup_opened');
     }
-  
-  // Прикрепляем обработчик к карточкам
-  cardGrid.addEventListener('click', openImgFullscreen);
+
+    // Открываем картинку fullscreen
+    function openImgFullscreen(evt) {
+        if (evt.target.classList.contains('gallery__card-img_single-work')) {
+            popupImgLink.src = evt.target.src;
+            popupImgTitle.textContent = evt.target.closest('.card').querySelector('.gallery__card-img_single-work').alt;
+            main.classList.add('main_lock');
+            openPopupImg();
+        };
+    }
+
+    // Прикрепляем обработчик к карточкам
+    cardGrid.addEventListener('click', openImgFullscreen);
 };

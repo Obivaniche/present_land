@@ -233,9 +233,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
             main.classList.toggle('main_lock');
             menuIcon.classList.toggle('menu__icon_active');
             menuContainer.classList.toggle('menu__container_active');
-
-        })
-    }
+        });
+    };
 };
 
 // Картинки

@@ -1,0 +1,6 @@
+.pagination__arrow {
+    width: 40px;
+    height: 40px;
+    border-bottom: 6px solid #d2f65a;
+    border-left: 6px solid #d2f65a;
+}

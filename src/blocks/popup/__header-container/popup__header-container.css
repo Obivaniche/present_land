@@ -3,3 +3,14 @@
     flex-direction: column;
     justify-content: left;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .popup__header-container {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+
+}

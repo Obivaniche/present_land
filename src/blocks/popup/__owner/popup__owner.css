@@ -3,3 +3,11 @@
     padding: 0;
     display: flex;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .popup__owner {
+        display: none;
+    }
+
+}

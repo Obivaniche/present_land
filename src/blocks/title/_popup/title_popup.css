@@ -8,3 +8,11 @@
     text-transform: uppercase;
     text-wrap: wrap;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .title_popup {
+        margin: 0;
+    }
+
+}

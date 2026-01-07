@@ -194,3 +194,6 @@
 @import url(../blocks/pagination/__link-container/_mobile/pagination__link-container_mobile.css);
 @import url(../blocks/pagination/__link/pagination__link.css);
 @import url(../blocks/pagination/__link/_mobile/pagination__link_mobile.css);
+@import url(../blocks/pagination/__arrow/pagination__arrow.css);
+@import url(../blocks/pagination/__arrow/_rev/vpagination__arrow_rev.css);
+@import url(../blocks/pagination/__button-text/_rev/pagination__button-text_rev.css);

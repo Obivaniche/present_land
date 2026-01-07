@@ -5,15 +5,3 @@
     align-items: center;
     cursor: pointer;
 }
-
-.pagination__button:hover {
-    outline: 1px solid #D2F65A;
-}
-
-@media screen and (max-width: 1024px) {
-
-    .pagination__button:hover {
-        outline: none;
-    }
-
-}

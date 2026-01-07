@@ -49,7 +49,7 @@ if (buttonContacts.length > 0) {
     }
 };
 
-// Зкрываем попап
+// Закрываем попап
 function closePopup(popup) {
     popup.classList.remove('popup_opened');
     main.classList.remove('main_lock');

@@ -36,3 +36,11 @@
 .form__input:focus::placeholder {
   color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+
+  .form__input {
+    padding: 20px 16px 20px 16px;
+  }
+
+}

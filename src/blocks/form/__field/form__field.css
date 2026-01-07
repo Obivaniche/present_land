@@ -13,15 +13,12 @@
 @media screen and (max-width: 640px) {
 
     .form__field {
-        max-width: 300px;
+        width: 220px;
+        height: 48px;
     }
 
-}
-
-@media screen and (max-width: 1024px) {
-
     .form__field:last-of-type {
-        max-height: max-content;
+        height: 96px;
     }
 
 }
